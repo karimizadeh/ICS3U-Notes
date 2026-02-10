@@ -12,8 +12,10 @@ Just like how there are many brands of toothpaste and other products, there are 
 There isn't a right or wrong or a best or worst one.
 
 For our class we will use [codewith.mu](https://codewith.mu/) or [VS Code](https://code.visualstudio.com/download) with the Python extension to code in Python.
-codewith.mu can be installed on school or personal computers.
-VS Code is used in industry and can be installed on your personal device, but not the school computers.
+
+* codewith.mu can be installed on school or personal computers.
+
+* VS Code is used in industry and can be installed on your personal device, but not the school computers.
 
 If you are using VS Code, you will need to install the Python extension from the extension marketplace for the best experience
 
@@ -23,7 +25,7 @@ If you are using VS Code, you will need to install the Python extension from the
 print("Hello World")
 ```
 
-[Practice #1](https://codecheck.it/files/21082917085wnxm0e98w9yknpp52yithung)
+## [Practice #1](https://codecheck.it/files/21082917085wnxm0e98w9yknpp52yithung)
 
 ## Comments
 
@@ -45,6 +47,9 @@ print("There is a comment at the end of this line!") # Hello there
 
 '''
 this is a multi-line comment
+
+
+
 
 it can be used for easily putting lots of text, notes,
 or documentation within your code
@@ -76,8 +81,8 @@ However, computers speak in 1's and 0's so they cannot guess the actual meaning 
 
 ```python
 if (...): # colon denoting a code block
-    print("...") # inside the if-statement. This line only exists within this block
-print("...") # no semi-colons at the end of lines
+    print("...") # inside the if-statement. This line only exists within this code block
+print("...") # no semi-colons at the end of lines. This line is outside the code block
 ```
 
 ### Summary
@@ -160,6 +165,6 @@ There are many different conventions for the way you name variables and other th
 - PascalCase: same as camel case, except the first word also starts with a capital letter.
 - snake_case: each word is separated by an underscore character. The words may start with a capital letter, but if that is the case all words in the name should start with capital letters as well.
 
-Snake case is the recommended one to use in Python.
+Snake case is the recommended convention to use in Python.
 
-[Practice #2](https://codecheck.it/files/2108291728eesbucomc3an96g3dcalgincj)
+## [Practice #2](https://codecheck.it/files/2108291728eesbucomc3an96g3dcalgincj)
