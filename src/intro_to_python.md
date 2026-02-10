@@ -111,7 +111,7 @@ Many are statically typed, which means variables are created with a specific typ
 ```python
 y # incorrect as y does not have a value. Python doesn't know it is a variable.
 
-print(y)
+print(y) # using 'y' as it is, without a value, will cause errors in your code and it will not run.
 ```
 
 ```python
@@ -134,10 +134,10 @@ In order to declare a variable in statically typed languages such as C, we do th
 int x = 4;
 ```
 
-In the previous Python example, x originally had an integer value of 4, now it is a string that holds a value of "Zayaan."
+In the previous Python example, x originally had an integer value of 4, now it is a string that holds a value of "Mitchell".
 
 ```python
-x = "Zayaan"
+x = "Mitchell"
 
 print(x)
 ```
