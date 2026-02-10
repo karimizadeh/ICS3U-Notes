@@ -10,13 +10,12 @@ The term "coding" is used to describe the act of writing code.
 A code editor is an app that lets you type code, similarly like typing an essay on word.
 Just like how there are many brands of toothpaste and other products, there are many brands of code editors.
 There isn't a right or wrong or a best or worst one.
-For our class, we will use [replit.com](https://replit.com), [codewith.mu](https://codewith.mu/), or VS Code to code in Python.
-Replit will work in your browser, so chromebooks will be able to use it.
+
+For our class we will use [codewith.mu](https://codewith.mu/) or [VS Code](https://code.visualstudio.com/download) with the Python extension to code in Python.
 codewith.mu can be installed on school or personal computers.
 VS Code is used in industry and can be installed on your personal device, but not the school computers.
 
-Do NOT leave code on Replit.
-It is public for everyone, so if someone finds your code and submits it as their own, it is considered plagiarism and everyone involved will receive a 0, and calls will be made to your parents.
+If you are using VS Code, you will need to install the Python extension from the extension marketplace for the best experience
 
 ## Our First Python Program
 
