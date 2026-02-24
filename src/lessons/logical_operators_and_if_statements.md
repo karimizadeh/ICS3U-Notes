@@ -91,6 +91,29 @@ else:
     print("a is greater than b")
 ```
 
+### Flowchart Example
+
+<p align="center">
+    <img src="../assets/if_flowchart_template.png">
+</p>
+
+The `if FALSE statement` branch represents the `else` block.
+
+<p align="center">
+    <img src="../assets/if_flowchart_example.png">
+</p>
+
+The corresponding code would be:
+
+```python
+mark = 100
+
+if mark >= 50:
+    print("you passed!")
+else:
+    print("you failed!")
+```
+
 ## Elif
 
 The `elif` keyword is python's way of saying "if the previous conditions were not true, then try this condition."
@@ -120,6 +143,19 @@ else:
     print("a is greater than b")
 ```
 
+### Flowchart Example
+
+<p align="center">
+    <img src="../assets/elif_flowchart_template.png">
+</p>
+
+Note the lack of an "if all else fails" branch.
+This would be covered by an `else` block, but `else` blocks are optional.
+
+<p align="center">
+    <img src="../assets/elif_flowchart_example.png">
+</p>
+
 [Practice #2](https://codecheck.it/files/21092418121710zkw29od2pejbl3w06pmro)
 
 [Practice #3](https://codecheck.it/files/210924182185pu4g59updjhrky0wtx6v096)
@@ -135,6 +171,12 @@ Logical operators are used to combine conditional statements.
 | `and` | return True only if both statements are True | `x < 5 and x < 10` |
 | `or` | returns True if either statement is True | `x < 5 or x < 4` |
 | `not` | reverse the result (True -> False, False -> True) | `not (x < 5 and x < 10)` |
+
+Below is each operators' truth table. `a` and `b` represent expressions which evaluate to True or False
+
+<p align="center">
+ <img src="../assets/logical_operators_truth_table.png">
+</p>
 
 ### Examples
 
