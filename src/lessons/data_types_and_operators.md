@@ -1,6 +1,6 @@
 # Python Data Types
 
-In python, there are three main categories of data types we will work with. Thos are numbers, text (strings), and booleans.
+In python, there are three main categories of data types we will work with. Those are numbers, text (strings), and booleans.
 Numbers are amounts and strings consists of letters and words.
 The main difference is that computers can do arithmetic with numbers but not with letters or words.
 
@@ -151,6 +151,7 @@ print(1 + 3) # 4
 print(2 * 3) # 6
 print(6 / 2) # 3
 ```
+
 ## Floor Division (Integer division)
 
 The floor division operator was briefly mentioned last lesson, but it is most useful for returning the answer of a division operation while ignoring the remainder.
