@@ -113,26 +113,6 @@ In order to do any necessary math, comparisons, or search, you need to operate o
 t = 8
 ```
 
-### Arithmetic Operators
-
-These operators perform mathematical operations on numbers.
-
-| Operator | Name | Description | Example |
--|-|-|-
-| + | Addition | Add two numbers together | `x + y` |
-| - | Subtraction | Subtract one number from another | `x - y` |
-| * | Multiplication | Multiply two numbers together | `x * y` |
-| / | Division | Divide one number by another | `x / y` |
-| % | Modulus | Divide on number by another and return the remainder | `x % y` |
-| \*\* | Exponentiation | Raise a number to the power of another | `x ** y` |
-| // | Floor Division | Divide a number by another number, but the result is rounded down to the nearest integer | `x // y` |
-
-```python
-print(1 + 3) # 4
-print(2 * 3) # 6
-print(6 / 2) # 3
-```
-
 ### Comparison Operators
 
 These operators compare values.
@@ -152,11 +132,74 @@ print(12 >= 3) # True
 print(5 < 5) # False
 ```
 
+### Arithmetic Operators
+
+These operators perform mathematical operations on numbers.
+
+| Operator | Name | Description | Example |
+-|-|-|-
+| + | Addition | Add two numbers together | `x + y` |
+| - | Subtraction | Subtract one number from another | `x - y` |
+| * | Multiplication | Multiply two numbers together | `x * y` |
+| / | Division | Divide one number by another | `x / y` |
+| % | Modulus | Divide on number by another and return the remainder | `x % y` |
+| \*\* | Exponentiation | Raise a number to the power of another | `x ** y` |
+| // | Floor Division | Divide a number by another number, but the result is rounded down to the nearest integer | `x // y` |
+
+```python
+print(1 + 3) # 4
+print(2 * 3) # 6
+print(6 / 2) # 3
+```
+## Floor Division (Integer division)
+
+The floor division operator was briefly mentioned last lesson, but it is most useful for returning the answer of a division operation while ignoring the remainder.
+
+```python
+result = int(x) // y # have to cast x to int because input() returns a str
+print(type(result)) # int
+print(x, "divided by", y, "gives us", result)
+```
+
+## Modulo
+
+Also mentioned last lesson, this operator is essentially the inverse of the floor division operator. It returns only the remainder of a division operator, ignoring the quotient.
+
+```python
+result1 = int(x) % y
+print(x, "divide by", y, "gives us", result, "with a remainder of", result1)
+```
+
+## Math Functions
+
+| Function | Description |
+|-|-|
+| `max(x, y, z, ...)` | Returns the largest provided numeric argument |
+| `min(x, y, z, ...)` | Returns the smallest provided numeric argument |
+| `round(x, y)` | Returns the number x rounded to y number of decimal places |
+
+[Practice #2](https://codecheck.it/files/2109070120daokxx12s4ke4dr6gcbqjzjwm)
+
+## Additional Math Functions
+
+In addition to the built-in functions above, there are other functions we can use when we import them from the math module.
+To use those additional math functions in our program, add the following line to the TOP of your program: `import math`.
+| Function | Description |
+|-|-|
+| `math.ceil(x)` | Rounds x up to the nearest integer |
+| `math.ceil(x)` | Rounds x down to the nearest integer |
+| `math.pow(x, y)` | Raises x to the power of y. This is the same as the `**` operator |
+| `math.pi` | Returns the mathematical constant pi (3.14159265...) |
+
+
+
 ### Practice
 
 [Practice #1](https://codecheck.it/files/21082917309kepalrlooxz5vnpqispzwh0g)
 
 [Practice #2](https://codecheck.it/files/210829181323aexx8netd7fcfia4pm8aq3k)
+
+
 
 ## Errors
 
