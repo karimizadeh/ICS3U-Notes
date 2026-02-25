@@ -116,6 +116,10 @@ The above will output
 ```
 Hello Marie!
 ```
+The f before the first quotation mark tells python that what follows is a format string.
+Inside the quotation marks, the text, called the literal, is displayed literally (exactly as typed in the f-string).
+Anything in curly braces is an expression in the f-string, a placeholder or template for what will appear when the code executes.
+Inside the curly braces, you can have any python expression (a formula to perform some calculation, a variable name, or a combination of the two).
 
 We can also use string literals and escaped characters in f-strings.
 ```python
@@ -132,11 +136,6 @@ is
 Marie"""
 print(output)
 ```
-
-The f before the first quotation mark tells python that what follows is a format string.
-Inside the quotation marks, the text, called the literal, is displayed literally (exactly as typed in the f-string).
-Anything in curly braces is an expression in the f-string, a placeholder or template for what will appear when the code executes.
-Inside the curly braces, you can have any python expression (a formula to perform some calculation, a variable name, or a combination of the two).
 
 ### Example
 
